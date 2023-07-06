@@ -1,5 +1,25 @@
+
 .header {
     width: 1340px;
     height: 109px;
-    margin: 92px 49px 92px 51px;    
+    margin: 92px auto 92px;  
+    background-color: aqua;  
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px; 
+}
+
+
+
+.header__links-list {
+    list-style:circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+.address{
+    font-style: normal;
 }
