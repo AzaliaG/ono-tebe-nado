@@ -9,13 +9,19 @@
     align-items:center;
 }
 
-.header__logo-image {
-    width: 148px;
-    height: 105px;
-    
+.cover {
+    display: flex;
+    background-image: url(.\images\cover.jpg);
+    background-size: 100% 100%;
+
 }
-
-
+.header_logo{
+    display:block;
+    width: 148px;
+}
+.header__logo-image {
+    height: 105px;   
+}
 
 
 .header__links-list {
@@ -25,7 +31,9 @@
     gap: 32px 32px;
     list-style: circle;
 }
-
+.header__link_active .header__links-list {
+    text-decoration: none;
+}
 .header__links-list-item_no-bullit {
     list-style: none;
 }
