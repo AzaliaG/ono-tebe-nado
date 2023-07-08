@@ -11,7 +11,6 @@
   </head>
   <body>
     <header class="header">
-     
       <nav class="header__menu">
         <ul class="header__links-list header__link_active">
           <li class="header__links-list-item header__links-list-item_no-circle">
@@ -40,13 +39,19 @@
 
     <main class="main">
       <cover class="cover">
-        <section class="overlay">
+        <overlay class="overlay">
          <h1 class="cover__title"> 
           <span class="aligned-text">Оно </span>
-          <span class="aligned-text_center"> тебе</span>
-          <span class="aligned-text_right">надо</span>
-        </h1>
-       </section>
+          <span class=" aligned-text_center"> тебе</span>
+          <span class=" aligned-text_right">надо</span>
+         </h1>
+       <div class="cover__description">
+        <cover__description class="cover__description-text">Аукцион вещей, в которые никто не верил</cover__description>
+         <bet_button class="bet-button">
+           <a href="#0" class="letter-spacing-extended">Сделать ставку</a>
+        </bet_button>
+       </div>
+         </overlay>
       </cover>
       <lots class="lots"></lots>
       <about class="about"></about>
