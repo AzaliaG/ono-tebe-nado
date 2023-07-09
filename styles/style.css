@@ -81,26 +81,34 @@
     text-align: right;   
 }
 .cover__description{
-    display:grid;
-    grid-template-columns: 10fr 1fr;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
 }
 .cover__description-text {
-    display: flex;
-    justify-content: center;
     margin-top: 12px;
     word-spacing: 28px;
 }
 .bet-button{
+    display:flex;
+    justify-content: center;
     width: 257px;
     height: 52px;
     flex-shrink: 0;
     border: 1px solid #FFF;
-    padding: 12px 32px;
     white-space: nowrap;
     margin-right: 50px;
-    
+    margin-left: 78px;
+    background-color: transparent;  
+}
+.button_letters{
+    margin: 12px 32px;
+    text-decoration: none;
 }
 .letter-spacing-extended{
-    letter-spacing:0;
-    text-decoration: none;
+    letter-spacing: 45px;
+}
+.no-letter-spacing {
+    letter-spacing: normal;
 }
